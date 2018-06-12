@@ -1,0 +1,25 @@
+{
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "description": "Simple mailing app using Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankk98/node-mailer.git"
+  },
+  "author": "Mayank Khandelwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayankk98/node-mailer/issues"
+  },
+  "homepage": "https://github.com/mayankk98/node-mailer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.6"
+  }
+}
